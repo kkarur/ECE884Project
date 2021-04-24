@@ -1,7 +1,6 @@
 # End-to-End Synthetic LIDAR Point Cloud Data Generation & Deep Learning Validation!
 
-Generation of synthetic and segmented Point Cloud LiDAR data and Object detection is a custom implementation of the paper from PIXOR. It represents the driving scene using lidar data in the Birds' Eye View (BEV) and uses a single stage object detector to predict the car
-
+In  the  present  research project,  we  describe  an  end-to-end framework  that  includes  on  the  one  side  the  artificial  LiDAR point  cloud  data  generation  and  one  the  other  its  validation by  the  PIXOR  pre-trained  model.  The  latter  is  trained  using data  exported from  actual  LiDARs.  We  showcase  how  LiDAR synthetic data can play a significant role in Deep Learning since the virtual objects are still traceable even if they are completely artificial  using  our  technique.  At  the  same  time,  we  suggest a  novel  methodology  for  a  generic  LiDAR  simulation  via  an advanced single camera Raycasting process of our custom-made tool. Lastly, we do not only create new datasets but actually we generate  filtered  data  based  on  the  needed  object  detection  (in this case cars) and provide all the proper validation for it. With our methodology and tools we will try to expand existing datasets and offer the means to include edge case scenario datasets with the safety and the low-cost nature that virtual environments can offer.
 
 # Project Overview
 
