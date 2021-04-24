@@ -1,12 +1,11 @@
 # End-to-End Synthetic LIDAR Point Cloud Data Generation & Deep Learning Validation!
 
-Generation of synthetic and segmented Point Cloud LiDAR data and Object detection is a custom implementation of the paper from Uber ATG using PyTorch 1.0. It represents the driving scene using lidar data in the Birds' Eye View (BEV) and uses a single stage object detector to predict the poses of road objects with respect to the car
+Generation of synthetic and segmented Point Cloud LiDAR data and Object detection is a custom implementation of the paper from PIXOR. It represents the driving scene using lidar data in the Birds' Eye View (BEV) and uses a single stage object detector to predict the car
 
 
 # Project Overview
 
 ![image](https://user-images.githubusercontent.com/83134822/115968947-5340a900-a508-11eb-9d16-4c6aa75fa7db.png)
-
 
 
 ## Steps to Run Object Detection for Point cloud data
@@ -73,13 +72,17 @@ Run the below command and you should find the output in the “srcs” folder (t
 
 ## Evaluation Results
 
-3 car Detection
-![image](https://user-images.githubusercontent.com/83134822/115968756-57b89200-a507-11eb-86f4-7cf9646ecb5d.png)
-![image](https://user-images.githubusercontent.com/83134822/115968764-5be4af80-a507-11eb-85fb-d451237d2bde.png)
+### 3 car Detection
+#### Simulator Input
+![Simulator Input](https://user-images.githubusercontent.com/83134822/115968756-57b89200-a507-11eb-86f4-7cf9646ecb5d.png)
+#### PIXOR Detection
+![PIXOR Detection](https://user-images.githubusercontent.com/83134822/115969164-9c452d00-a509-11eb-84cd-de3b3288857c.png)
 
-4 car Detection
-![image](https://user-images.githubusercontent.com/83134822/115968776-6f901600-a507-11eb-929c-a91e33b00096.png)
-![image](https://user-images.githubusercontent.com/83134822/115968779-7454ca00-a507-11eb-9e20-ac8fb1d9069e.png)
+### 4 car Detection
+#### Simulator Input
+![Simulator Input](https://user-images.githubusercontent.com/83134822/115968776-6f901600-a507-11eb-929c-a91e33b00096.png)
+#### PIXOR Detection
+![PIXOR Detection](https://user-images.githubusercontent.com/83134822/115968779-7454ca00-a507-11eb-9e20-ac8fb1d9069e.png)
 
 
 
