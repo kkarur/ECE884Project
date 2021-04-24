@@ -8,15 +8,15 @@ In  the  present  research project,  we  describe  an  end-to-end framework  tha
 
 ## Virtual LiDAR Simulator(Synthetic Point cloud generation) 
 
-a)	Step 1: Once you download and unzip the folder, run the “Virtual LiDAR Simulator.exe”
+a)	Step 1: Once you download and unzip the "Build 1.1.7z" folder, run the “Virtual LiDAR Simulator.exe”
 
 ![image](https://user-images.githubusercontent.com/83134822/115970476-8b4bea00-a510-11eb-9dbd-753a01b2ac0b.png)
 
-b)	Step 2: Once the application loads (after the Unity splash Screen), it will lead you to the Credits Panel showcasing our research team. Please select the X button to move to Main Menu.
+b)	Step 2: Once the application loads (after the Unity splash screen), it will lead you to the Credits Panel showcasing our research team. Please select the X button to transition to Main Menu.
 
 ![image](https://user-images.githubusercontent.com/83134822/115970463-7d966480-a510-11eb-9171-5872fb41e6a5.png)
 
-c)	Step 3: After selecting the X button this will lead to Main Menu scene. To start the simulation select the Start Button
+c)	Step 3: After selecting the X button this will lead to Main Menu scene. To start the simulation select the Start Button.
 
 ![image](https://user-images.githubusercontent.com/83134822/115970490-9ef75080-a510-11eb-9158-db6ca381e2fc.png)
 
@@ -24,12 +24,13 @@ d)	(Step 4: Options button leads to a new panel where users can select different
 
 ![image](https://user-images.githubusercontent.com/83134822/115970498-af0f3000-a510-11eb-839f-d97a4e132f83.png)
 
-e)	Step 5: After starting the simulator, this will lead us to the main scene. The main controls to move around with the vehicle controller that also contains the LiDAR, are:
-            a.	W: move forward
-            b.	S: move backwards
-            c.	A: turn left
-            d.	D: Turn right
-            e.	Escape: Returns to Main Menu
+e)	Step 5: After starting the simulator, this will lead us to the main scene. The main controls to move around with the vehicle controller that also contains the LiDAR, are: <br/>
+            W: move forward<br/>
+            S: move backwards<br/>
+            A: turn left<br/>
+            D: Turn right<br/>
+            Escape: Returns to Main Menu<br/>
+            
 Tip: At very beginning of the main scene -even without moving at all-, by pressing the key button “P” (it stands for “PointCloud”) the sampling process starts (there are car gameObjects on the right side) 
 
 ![image](https://user-images.githubusercontent.com/83134822/115970511-c5b58700-a510-11eb-8d5f-449087c8f331.png)
