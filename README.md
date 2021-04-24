@@ -5,7 +5,43 @@ Generation of synthetic and segmented Point Cloud LiDAR data and Object detectio
 
 # Project Overview
 
-![image](https://user-images.githubusercontent.com/83134822/115968947-5340a900-a508-11eb-9d16-4c6aa75fa7db.png)
+![image](https://user-images.githubusercontent.com/83134822/115970366-c863ac80-a50f-11eb-9f56-1c3133d4cf33.png)
+
+## Virtual LiDAR Simulator(Synthetic Point cloud generation) 
+
+a)	Step 1: Once you download and unzip the folder, run the “Virtual LiDAR Simulator.exe”
+
+![image](https://user-images.githubusercontent.com/83134822/115970476-8b4bea00-a510-11eb-9dbd-753a01b2ac0b.png)
+
+b)	Step 2: Once the application loads (after the Unity splash Screen), it will lead you to the Credits Panel showcasing our research team. Please select the X button to move to Main Menu.
+
+![image](https://user-images.githubusercontent.com/83134822/115970463-7d966480-a510-11eb-9171-5872fb41e6a5.png)
+
+c)	Step 3: After selecting the X button this will lead to Main Menu scene. To start the simulation select the Start Button
+
+![image](https://user-images.githubusercontent.com/83134822/115970490-9ef75080-a510-11eb-9158-db6ca381e2fc.png)
+
+d)	(Step 4: Options button leads to a new panel where users can select different settings for the virtual LiDAR simulator. This feature is currently under development. Select Back to return to Main Menu.)
+
+![image](https://user-images.githubusercontent.com/83134822/115970498-af0f3000-a510-11eb-839f-d97a4e132f83.png)
+
+e)	Step 5: After starting the simulator, this will lead us to the main scene. The main controls to move around with the vehicle controller that also contains the LiDAR, are:
+            a.	W: move forward
+            b.	S: move backwards
+            c.	A: turn left
+            d.	D: Turn right
+            e.	Escape: Returns to Main Menu
+Tip: At very beginning of the main scene -even without moving at all-, by pressing the key button “P” (it stands for “PointCloud”) the sampling process starts (there are car gameObjects on the right side) 
+
+![image](https://user-images.githubusercontent.com/83134822/115970511-c5b58700-a510-11eb-8d5f-449087c8f331.png)
+
+f)	Step 6: After starting the sampling process, the vehicle controller immobilizes until it finishes collecting all the points. You can recover the control when everything is done. At the same time, after finishing, you will need the visit the “..\Virtual LiDAR Simulator_Data\StreamingAssets” subfolder of the application. In this folder you will find the automatically created dataset. This is a csv file with the name: “LiDAR_Dataset”. The csv contains 4 columns (XYZ info + a randomly created reflectance value ranging from 0.3 - 0.6)
+
+![image](https://user-images.githubusercontent.com/83134822/115970529-eaa9fa00-a510-11eb-9d18-d5cab3b88d30.png)
+
+g)	Step 7: A screenshot from a sample synthetic dataset.
+
+![image](https://user-images.githubusercontent.com/83134822/115970538-fe556080-a510-11eb-937b-7bfa07fe81a2.png)
 
 
 ## Steps to Run Object Detection for Point cloud data
