@@ -8,7 +8,7 @@ In  the  present  research project,  we  describe  an  end-to-end framework  tha
 
 ## Virtual LiDAR Simulator(Synthetic Point cloud generation) 
 
-a)	Step 1: Once you download the application using the link from "SimulatorLink.txt", unzip the "Build 1.1.7z" folder and run the “Virtual LiDAR Simulator.exe”
+a)	Step 1: Once you download the application using the link from "SimulatorLink.txt", unzip the "Build 1.2.7z" folder and run the “Virtual LiDAR Simulator.exe”
 
 ![image](https://user-images.githubusercontent.com/83134822/115970476-8b4bea00-a510-11eb-9dbd-753a01b2ac0b.png)
 
